@@ -1,0 +1,1024 @@
+[
+  {
+    "Nombre": "Carlos Almenar",
+    "Nacionalidad": "Venezuela",
+    "Fecha de nacimiento": "1975-03-12",
+    "Edad": 51,
+    "Patrimonio": 1250000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Zoro",
+        "Serie, pelicula, anime o videojuego": "One Piece",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 850,
+        "Generos": ["Accion", "Aventura"]
+      },
+      {
+        "Nombre": "Kratos",
+        "Serie, pelicula, anime o videojuego": "God of War",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 15,
+        "Generos": ["Accion", "Mitologia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Maria Jose Estvez",
+    "Nacionalidad": "Chile",
+    "Fecha de nacimiento": "1998-07-22",
+    "Edad": 28,
+    "Patrimonio": 450000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Nezuko",
+        "Serie, pelicula, anime o videojuego": "Demon Slayer",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 40,
+        "Generos": ["Accion", "Sobrenatural"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Alejandro Silva",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1962-11-05",
+    "Edad": 63,
+    "Patrimonio": 3100000,
+    "Idiomas": ["Espanol", "Ingles", "Frances"],
+    "Personajes": [
+      {
+        "Nombre": "Homero Simpson",
+        "Serie, pelicula, anime o videojuego": "Los Simpson",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 700,
+        "Generos": ["Comedia", "Animacion"]
+      },
+      {
+        "Nombre": "Bender",
+        "Serie, pelicula, anime o videojuego": "Futurama",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 140,
+        "Generos": ["Ciencia Ficcion", "Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Laura Torres",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1967-11-28",
+    "Edad": 58,
+    "Patrimonio": 2200000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Goku niño",
+        "Serie, pelicula, anime o videojuego": "Dragon Ball",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 150,
+        "Generos": ["Accion", "Anime"]
+      },
+      {
+        "Nombre": "Nobita",
+        "Serie, pelicula, anime o videojuego": "Doraemon",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 300,
+        "Generos": ["Comedia", "Infantil"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Mario Castaneda",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1962-06-29",
+    "Edad": 64,
+    "Patrimonio": 4000000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Goku adulto",
+        "Serie, pelicula, anime o videojuego": "Dragon Ball Z",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 500,
+        "Generos": ["Accion", "Anime"]
+      },
+      {
+        "Nombre": "Jim Carrey (Voz habitual)",
+        "Serie, pelicula, anime o videojuego": "Todopoderoso",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 20,
+        "Generos": ["Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "René Garcia",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1970-03-12",
+    "Edad": 56,
+    "Patrimonio": 2800000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Vegeta",
+        "Serie, pelicula, anime o videojuego": "Dragon Ball Z",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 450,
+        "Generos": ["Accion", "Anime"]
+      },
+      {
+        "Nombre": "Ben Affleck",
+        "Serie, pelicula, anime o videojuego": "Batman v Superman",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 5,
+        "Generos": ["Accion", "Superheroes"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Cristina Hernandez",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1977-02-14",
+    "Edad": 49,
+    "Patrimonio": 1900000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Sakura Kinomoto",
+        "Serie, pelicula, anime o videojuego": "Sakura Cardcaptor",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 70,
+        "Generos": ["Mahou Shoujo", "Anime"]
+      },
+      {
+        "Nombre": "Alegria",
+        "Serie, pelicula, anime o videojuego": "Intensamente",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 2,
+        "Generos": ["Animacion", "Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Gerardo Reyero",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1964-10-02",
+    "Edad": 61,
+    "Patrimonio": 2500000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Freezer",
+        "Serie, pelicula, anime o videojuego": "Dragon Ball Z",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 120,
+        "Generos": ["Accion", "Anime"]
+      },
+      {
+        "Nombre": "Han Solo",
+        "Serie, pelicula, anime o videojuego": "Star Wars",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 6,
+        "Generos": ["Ciencia Ficcion", "Aventura"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Javier Rivero",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1960-08-15",
+    "Edad": 66,
+    "Patrimonio": 1800000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Tigger",
+        "Serie, pelicula, anime o videojuego": "Winnie the Pooh",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 80,
+        "Generos": ["Infantil", "Animacion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Rossy Aguirre",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1968-08-01",
+    "Edad": 58,
+    "Patrimonio": 1400000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Akane Tendo",
+        "Serie, pelicula, anime o videojuego": "Ranma 1/2",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 160,
+        "Generos": ["Comedia", "Artes Marciales"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Isabel Martiñon",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1972-04-18",
+    "Edad": 54,
+    "Patrimonio": 1600000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Naruto Uzumaki",
+        "Serie, pelicula, anime o videojuego": "Naruto",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 220,
+        "Generos": ["Accion", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Patricia Acevedo",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1959-10-18",
+    "Edad": 66,
+    "Patrimonio": 2100000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Serena Tsukino",
+        "Serie, pelicula, anime o videojuego": "Sailor Moon",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 200,
+        "Generos": ["Magia", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Gabriel Chavez",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1958-03-22",
+    "Edad": 68,
+    "Patrimonio": 2300000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Sr. Burns",
+        "Serie, pelicula, anime o videojuego": "Los Simpson",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 500,
+        "Generos": ["Comedia", "Animacion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Humberto Velez",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1955-03-30",
+    "Edad": 71,
+    "Patrimonio": 3500000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Homero Simpson (Epocas clasicas)",
+        "Serie, pelicula, anime o videojuego": "Los Simpson",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 350,
+        "Generos": ["Comedia", "Animacion"]
+      },
+      {
+        "Nombre": "Winnie the Pooh",
+        "Serie, pelicula, anime o videojuego": "Winnie the Pooh",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 60,
+        "Generos": ["Infantil"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Yamil Atala",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1965-10-21",
+    "Edad": 60,
+    "Patrimonio": 1100000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Dexter",
+        "Serie, pelicula, anime o videojuego": "El laboratorio de Dexter",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 78,
+        "Generos": ["Animacion", "Ciencia Ficcion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Sergio Bonilla",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1974-12-10",
+    "Edad": 51,
+    "Patrimonio": 950000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Trunks del futuro",
+        "Serie, pelicula, anime o videojuego": "Dragon Ball Z",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 40,
+        "Generos": ["Accion", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Ricardo Silva",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1954-02-07",
+    "Edad": 72,
+    "Patrimonio": 1300000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Intérprete de Opening",
+        "Serie, pelicula, anime o videojuego": "Dragon Ball Z",
+        "Tipo de produccion": "profesional",
+        "Rol": "extra",
+        "Cantidad de apariciones": 1,
+        "Generos": ["Musica", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Adriana Casas",
+    "Nacionalidad": "Argentina",
+    "Fecha de nacimiento": "1982-05-14",
+    "Edad": 44,
+    "Patrimonio": 400000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Lina Inverse",
+        "Serie, pelicula, anime o videojuego": "Slayers",
+        "Tipo de produccion": "independiente",
+        "Rol": "principal",
+        "Cantidad de apariciones": 26,
+        "Generos": ["Fantasia", "Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Sebastian Llapur",
+    "Nacionalidad": "Argentina",
+    "Fecha de nacimiento": "1969-07-28",
+    "Edad": 57,
+    "Patrimonio": 2100000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Krusty el payaso",
+        "Serie, pelicula, anime o videojuego": "Los Simpson",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 200,
+        "Generos": ["Comedia"]
+      },
+      {
+        "Nombre": "Marcus Fenix",
+        "Serie, pelicula, anime o videojuego": "Gears of War",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 5,
+        "Generos": ["Accion", "Videojuegos"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Erica Edwards",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1978-09-15",
+    "Edad": 47,
+    "Patrimonio": 850000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Cenicienta",
+        "Serie, pelicula, anime o videojuego": "La Cenicienta (Redoblaje)",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 1,
+        "Generos": ["Animacion", "Fantasia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Valeria Zuniga",
+    "Nacionalidad": "Chile",
+    "Fecha de nacimiento": "2001-02-10",
+    "Edad": 25,
+    "Patrimonio": 120000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Alya Césaire",
+        "Serie, pelicula, anime o videojuego": "Miraculous Ladybug",
+        "Tipo de produccion": "independiente",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 35,
+        "Generos": ["Animacion", "Accion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Diego Munoz",
+    "Nacionalidad": "Chile",
+    "Fecha de nacimiento": "1999-06-19",
+    "Edad": 27,
+    "Patrimonio": 90000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Chico Bestia",
+        "Serie, pelicula, anime o videojuego": "Los Jovenes Titanes",
+        "Tipo de produccion": "independiente",
+        "Rol": "principal",
+        "Cantidad de apariciones": 50,
+        "Generos": ["Accion", "Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Camila Rojas",
+    "Nacionalidad": "Colombia",
+    "Fecha de nacimiento": "2000-11-04",
+    "Edad": 25,
+    "Patrimonio": 150000,
+    "Idiomas": ["Espanol", "Portugues"],
+    "Personajes": [
+      {
+        "Nombre": "Mirabel Madrigal",
+        "Serie, pelicula, anime o videojuego": "Encanto",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 1,
+        "Generos": ["Animacion", "Musical"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Esteban Morales",
+    "Nacionalidad": "Argentina",
+    "Fecha de nacimiento": "1995-01-30",
+    "Edad": 31,
+    "Patrimonio": 300000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Gumball",
+        "Serie, pelicula, anime o videojuego": "El increible mundo de Gumball",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 120,
+        "Generos": ["Comedia", "Animacion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Sofia Valenzuela",
+    "Nacionalidad": "Peru",
+    "Fecha de nacimiento": "1997-08-12",
+    "Edad": 29,
+    "Patrimonio": 220000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Katara",
+        "Serie, pelicula, anime o videojuego": "Avatar: La leyenda de Aang",
+        "Tipo de produccion": "independiente",
+        "Rol": "principal",
+        "Cantidad de apariciones": 60,
+        "Generos": ["Accion", "Aventura"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Mateo Fernandez",
+    "Nacionalidad": "Uruguay",
+    "Fecha de nacimiento": "1994-04-03",
+    "Edad": 32,
+    "Patrimonio": 280000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Sokka",
+        "Serie, pelicula, anime o videojuego": "Avatar: La leyenda de Aang",
+        "Tipo de produccion": "independiente",
+        "Rol": "principal",
+        "Cantidad de apariciones": 60,
+        "Generos": ["Comedia", "Aventura"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Lucia Gomez",
+    "Nacionalidad": "Espana",
+    "Fecha de nacimiento": "1988-12-25",
+    "Edad": 37,
+    "Patrimonio": 600000,
+    "Idiomas": ["Espanol", "Catalan"],
+    "Personajes": [
+      {
+        "Nombre": "Pepa Pig",
+        "Serie, pelicula, anime o videojuego": "Peppa Pig",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 250,
+        "Generos": ["Infantil"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Daniel Santoyo",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1990-09-09",
+    "Edad": 35,
+    "Patrimonio": 500000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Shikamaru",
+        "Serie, pelicula, anime o videojuego": "Naruto",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 90,
+        "Generos": ["Accion", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Monica Estrada",
+    "Nacionalidad": "Colombia",
+    "Fecha de nacimiento": "1985-06-14",
+    "Edad": 41,
+    "Patrimonio": 700000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Tsunade",
+        "Serie, pelicula, anime o videojuego": "Naruto Shippuden",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 110,
+        "Generos": ["Accion", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Javier Fernandez",
+    "Nacionalidad": "Espana",
+    "Fecha de nacimiento": "1980-01-11",
+    "Edad": 46,
+    "Patrimonio": 800000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Solid Snake",
+        "Serie, pelicula, anime o videojuego": "Metal Gear Solid",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 10,
+        "Generos": ["Accion", "Sigilo"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Carmen Alarcon",
+    "Nacionalidad": "Espana",
+    "Fecha de nacimiento": "1992-03-17",
+    "Edad": 34,
+    "Patrimonio": 350000,
+    "Idiomas": ["Espanol", "Ingles", "Frances"],
+    "Personajes": [
+      {
+        "Nombre": "Violet",
+        "Serie, pelicula, anime o videojuego": "Violet Evergarden",
+        "Tipo de produccion": "independiente",
+        "Rol": "principal",
+        "Cantidad de apariciones": 13,
+        "Generos": ["Drama", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Rodrigo Carpio",
+    "Nacionalidad": "Peru",
+    "Fecha de nacimiento": "1987-05-20",
+    "Edad": 39,
+    "Patrimonio": 450000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "L",
+        "Serie, pelicula, anime o videojuego": "Death Note",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 25,
+        "Generos": ["Suspenso", "Misterio"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Jimena Munoz",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1996-10-05",
+    "Edad": 29,
+    "Patrimonio": 200000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Misa Amane",
+        "Serie, pelicula, anime o videojuego": "Death Note",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 20,
+        "Generos": ["Suspenso", "Sobrenatural"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Gonzalo Curiel",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1963-01-19",
+    "Edad": 63,
+    "Patrimonio": 1700000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "El Guasón",
+        "Serie, pelicula, anime o videojuego": "Batman: La serie animada",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 65,
+        "Generos": ["Accion", "Crimen"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Braulio Hernandez",
+    "Nacionalidad": "Chile",
+    "Fecha de nacimiento": "2002-09-09",
+    "Edad": 23,
+    "Patrimonio": 80000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Tanjiro Kamado",
+        "Serie, pelicula, anime o videojuego": "Demon Slayer",
+        "Tipo de produccion": "independiente",
+        "Rol": "principal",
+        "Cantidad de apariciones": 44,
+        "Generos": ["Accion", "Fantasia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Daniela Lopez",
+    "Nacionalidad": "Argentina",
+    "Fecha de nacimiento": "2000-12-12",
+    "Edad": 25,
+    "Patrimonio": 110000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Mitsuri Kanroji",
+        "Serie, pelicula, anime o videojuego": "Demon Slayer",
+        "Tipo de produccion": "independiente",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 12,
+        "Generos": ["Accion", "Romance"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Arturo Mercado",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1942-12-07",
+    "Edad": 83,
+    "Patrimonio": 5000000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Simba adulto",
+        "Serie, pelicula, anime o videojuego": "El Rey Leon",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 3,
+        "Generos": ["Animacion", "Drama"]
+      },
+      {
+        "Nombre": "Bugs Bunny",
+        "Serie, pelicula, anime o videojuego": "Looney Tunes",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 300,
+        "Generos": ["Comedia", "Animacion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Arturo Mercado Jr.",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1972-06-03",
+    "Edad": 54,
+    "Patrimonio": 1500000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Shinichi Kudo",
+        "Serie, pelicula, anime o videojuego": "Detective Conan",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 100,
+        "Generos": ["Misterio", "Policial"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Jesse Conde",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1954-07-25",
+    "Edad": 72,
+    "Patrimonio": 1900000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Cara de Papa",
+        "Serie, pelicula, anime o videojuego": "Toy Story",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 4,
+        "Generos": ["Animacion", "Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Ricardo Tejedo",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1970-10-19",
+    "Edad": 55,
+    "Patrimonio": 2000000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Jack Sparrow",
+        "Serie, pelicula, anime o videojuego": "Piratas del Caribe",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 5,
+        "Generos": ["Aventura", "Fantasia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Octavio Rojas",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1959-07-11",
+    "Edad": 67,
+    "Patrimonio": 2400000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Waylon Smithers",
+        "Serie, pelicula, anime o videojuego": "Los Simpson",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 400,
+        "Generos": ["Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Blanca Hualinga",
+    "Nacionalidad": "Ecuador",
+    "Fecha de nacimiento": "1993-02-19",
+    "Edad": 33,
+    "Patrimonio": 250000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Yoko",
+        "Serie, pelicula, anime o videojuego": "Gurren Lagann",
+        "Tipo de produccion": "independiente",
+        "Rol": "principal",
+        "Cantidad de apariciones": 27,
+        "Generos": ["Mecha", "Accion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Mireya Mendoza",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1984-08-30",
+    "Edad": 42,
+    "Patrimonio": 650000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Erza Scarlet",
+        "Serie, pelicula, anime o videojuego": "Fairy Tail",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 175,
+        "Generos": ["Fantasia", "Accion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Igor Cruz",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1981-04-05",
+    "Edad": 45,
+    "Patrimonio": 720000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Natsu Dragneel",
+        "Serie, pelicula, anime o videojuego": "Fairy Tail",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 175,
+        "Generos": ["Fantasia", "Accion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Claudia Motta",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1971-08-25",
+    "Edad": 55,
+    "Patrimonio": 1650000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Bart Simpson",
+        "Serie, pelicula, anime o videojuego": "Los Simpson",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 500,
+        "Generos": ["Comedia"]
+      },
+      {
+        "Nombre": "Marea",
+        "Serie, pelicula, anime o videojuego": "Los sustitutos",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 30,
+        "Generos": ["Animacion"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Nancy Mackenzie",
+    "Nacionalidad": "Peru",
+    "Fecha de nacimiento": "1942-12-06",
+    "Edad": 83,
+    "Patrimonio": 3200000,
+    "Idiomas": ["Espanol", "Ingles"],
+    "Personajes": [
+      {
+        "Nombre": "Marge Simpson",
+        "Serie, pelicula, anime o videojuego": "Los Simpson",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 600,
+        "Generos": ["Comedia"]
+      },
+      {
+        "Nombre": "Sailor Galaxia",
+        "Serie, pelicula, anime o videojuego": "Sailor Moon",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 15,
+        "Generos": ["Magia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Moises Palacios",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1954-10-09",
+    "Edad": 71,
+    "Patrimonio": 1900000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Porky",
+        "Serie, pelicula, anime o videojuego": "Looney Tunes",
+        "Tipo de produccion": "profesional",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 100,
+        "Generos": ["Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Alfonso Obregon",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1960-06-29",
+    "Edad": 66,
+    "Patrimonio": 3800000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Shrek",
+        "Serie, pelicula, anime o videojuego": "Shrek",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 4,
+        "Generos": ["Comedia", "Fantasia"]
+      },
+      {
+        "Nombre": "Kakashi Hatake",
+        "Serie, pelicula, anime o videojuego": "Naruto",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 220,
+        "Generos": ["Accion", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Rossy Valenzuela",
+    "Nacionalidad": "Chile",
+    "Fecha de nacimiento": "1994-05-18",
+    "Edad": 32,
+    "Patrimonio": 210000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Meg",
+        "Serie, pelicula, anime o videojuego": "Padre de familia (Latino alternativo)",
+        "Tipo de produccion": "independiente",
+        "Rol": "secundario",
+        "Cantidad de apariciones": 40,
+        "Generos": ["Comedia"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Ernesto Lezama",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1968-02-14",
+    "Edad": 58,
+    "Patrimonio": 1200000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Pikachu (Vocalizaciones)",
+        "Serie, pelicula, anime o videojuego": "Pokemon",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 300,
+        "Generos": ["Aventura", "Anime"]
+      }
+    ]
+  },
+  {
+    "Nombre": "Diana Perez",
+    "Nacionalidad": "Mexico",
+    "Fecha de nacimiento": "1970-07-09",
+    "Edad": 56,
+    "Patrimonio": 1450000,
+    "Idiomas": ["Espanol"],
+    "Personajes": [
+      {
+        "Nombre": "Jessie",
+        "Serie, pelicula, anime o videojuego": "Pokemon",
+        "Tipo de produccion": "profesional",
+        "Rol": "principal",
+        "Cantidad de apariciones": 400,
+        "Generos": ["Aventura", "Anime"]
+      }
+    ]
+  }
+]
