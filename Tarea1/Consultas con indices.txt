@@ -1,0 +1,890 @@
+consulta 1- con índice (Nacionalidad-Edad)
+
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Actors.Voice-actors',
+    parsedQuery: {
+      Edad: {
+        '$gt': 50
+      }
+    },
+    indexFilterSet: false,
+    queryHash: '60C3B88B',
+    planCacheShapeHash: '60C3B88B',
+    planCacheKey: 'F8DB535C',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      transformBy: {
+        _id: 0,
+        Nombre: 1,
+        Nacionalidad: 1,
+        Edad: 1,
+        Idiomas: 1
+      },
+      inputStage: {
+        stage: 'SORT',
+        sortPattern: {
+          Nombre: 1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        inputStage: {
+          stage: 'FETCH',
+          inputStage: {
+            stage: 'IXSCAN',
+            keyPattern: {
+              Edad: 1
+            },
+            indexName: 'Edad_1',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Edad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'forward',
+            indexBounds: {
+              Edad: [
+                '(50, inf.0]'
+              ]
+            }
+          }
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 10,
+    executionTimeMillis: 4,
+    totalKeysExamined: 28,
+    totalDocsExamined: 28,
+    executionStages: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      nReturned: 10,
+      executionTimeMillisEstimate: 0,
+      works: 40,
+      advanced: 10,
+      needTime: 29,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      transformBy: {
+        _id: 0,
+        Nombre: 1,
+        Nacionalidad: 1,
+        Edad: 1,
+        Idiomas: 1
+      },
+      inputStage: {
+        stage: 'SORT',
+        nReturned: 10,
+        executionTimeMillisEstimate: 0,
+        works: 40,
+        advanced: 10,
+        needTime: 29,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        sortPattern: {
+          Nombre: 1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        totalDataSizeSorted: 5912,
+        usedDisk: false,
+        spills: 0,
+        spilledDataStorageSize: 0,
+        inputStage: {
+          stage: 'FETCH',
+          nReturned: 28,
+          executionTimeMillisEstimate: 0,
+          works: 29,
+          advanced: 28,
+          needTime: 0,
+          needYield: 0,
+          saveState: 0,
+          restoreState: 0,
+          isEOF: 1,
+          docsExamined: 28,
+          alreadyHasObj: 0,
+          inputStage: {
+            stage: 'IXSCAN',
+            nReturned: 28,
+            executionTimeMillisEstimate: 0,
+            works: 29,
+            advanced: 28,
+            needTime: 0,
+            needYield: 0,
+            saveState: 0,
+            restoreState: 0,
+            isEOF: 1,
+            keyPattern: {
+              Edad: 1
+            },
+            indexName: 'Edad_1',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Edad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'forward',
+            indexBounds: {
+              Edad: [
+                '(50, inf.0]'
+              ]
+            },
+            keysExamined: 28,
+            seeks: 1,
+            dupsTested: 0,
+            dupsDropped: 0
+          }
+        }
+      }
+    }
+  },
+  queryShapeHash: '724A9FBC16B9524F7E2BBC4BC65CD1306CC81EBDB165867B89D84929FF8C1C81',
+  command: {
+    find: 'Voice-actors',
+    filter: {
+      Edad: {
+        '$gt': 50
+      }
+    },
+    sort: {
+      Nombre: 1
+    },
+    projection: {
+      _id: 0,
+      Nombre: 1,
+      Nacionalidad: 1,
+      Edad: 1,
+      Idiomas: 1
+    },
+    limit: 10,
+    '$db': 'Actors'
+  },
+  serverInfo: {
+    host: '058f7131e6e9',
+    port: 30001,
+    version: '8.0.29',
+    gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1788713139, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1788713139, i: 1 })
+}
+
+consulta 2- con índice(Nacionalidad)
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Actors.Voice-actors',
+    parsedQuery: {
+      '$and': [
+        {
+          Idiomas: {
+            '$eq': 'Ingles'
+          }
+        },
+        {
+          Nacionalidad: {
+            '$eq': 'Chile'
+          }
+        }
+      ]
+    },
+    indexFilterSet: false,
+    queryHash: 'A2EC8B8A',
+    planCacheShapeHash: 'A2EC8B8A',
+    planCacheKey: '9C853730',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      transformBy: {
+        _id: 0,
+        Nombre: 1,
+        Nacionalidad: 1,
+        Edad: 1,
+        Idiomas: 1
+      },
+      inputStage: {
+        stage: 'SORT',
+        sortPattern: {
+          Nombre: 1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        inputStage: {
+          stage: 'FETCH',
+          filter: {
+            Idiomas: {
+              '$eq': 'Ingles'
+            }
+          },
+          inputStage: {
+            stage: 'IXSCAN',
+            keyPattern: {
+              Nacionalidad: 1
+            },
+            indexName: 'Nacionalidad_1',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Nacionalidad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'forward',
+            indexBounds: {
+              Nacionalidad: [
+                '["Chile", "Chile"]'
+              ]
+            }
+          }
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 1,
+    executionTimeMillis: 4,
+    totalKeysExamined: 5,
+    totalDocsExamined: 5,
+    executionStages: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      nReturned: 1,
+      executionTimeMillisEstimate: 0,
+      works: 8,
+      advanced: 1,
+      needTime: 6,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      transformBy: {
+        _id: 0,
+        Nombre: 1,
+        Nacionalidad: 1,
+        Edad: 1,
+        Idiomas: 1
+      },
+      inputStage: {
+        stage: 'SORT',
+        nReturned: 1,
+        executionTimeMillisEstimate: 0,
+        works: 8,
+        advanced: 1,
+        needTime: 6,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        sortPattern: {
+          Nombre: 1
+        },
+        memLimit: 104857600,
+        limitAmount: 10,
+        type: 'simple',
+        totalDataSizeSorted: 491,
+        usedDisk: false,
+        spills: 0,
+        spilledDataStorageSize: 0,
+        inputStage: {
+          stage: 'FETCH',
+          filter: {
+            Idiomas: {
+              '$eq': 'Ingles'
+            }
+          },
+          nReturned: 1,
+          executionTimeMillisEstimate: 0,
+          works: 6,
+          advanced: 1,
+          needTime: 4,
+          needYield: 0,
+          saveState: 0,
+          restoreState: 0,
+          isEOF: 1,
+          docsExamined: 5,
+          alreadyHasObj: 0,
+          inputStage: {
+            stage: 'IXSCAN',
+            nReturned: 5,
+            executionTimeMillisEstimate: 0,
+            works: 6,
+            advanced: 5,
+            needTime: 0,
+            needYield: 0,
+            saveState: 0,
+            restoreState: 0,
+            isEOF: 1,
+            keyPattern: {
+              Nacionalidad: 1
+            },
+            indexName: 'Nacionalidad_1',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Nacionalidad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'forward',
+            indexBounds: {
+              Nacionalidad: [
+                '["Chile", "Chile"]'
+              ]
+            },
+            keysExamined: 5,
+            seeks: 1,
+            dupsTested: 0,
+            dupsDropped: 0
+          }
+        }
+      }
+    }
+  },
+  queryShapeHash: 'D828B76B3CCC4496A298D55198764B30408FF22E25929B04E95A5553F25A0AA2',
+  command: {
+    find: 'Voice-actors',
+    filter: {
+      '$and': [
+        {
+          Nacionalidad: 'Chile'
+        },
+        {
+          Idiomas: 'Ingles'
+        }
+      ]
+    },
+    sort: {
+      Nombre: 1
+    },
+    projection: {
+      _id: 0,
+      Nombre: 1,
+      Nacionalidad: 1,
+      Edad: 1,
+      Idiomas: 1
+    },
+    limit: 10,
+    '$db': 'Actors'
+  },
+  serverInfo: {
+    host: '058f7131e6e9',
+    port: 30001,
+    version: '8.0.29',
+    gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1788712469, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1788712469, i: 1 })
+}
+
+consulta 3- con índice(Nacionalidad-Edad)
+
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Actors.Voice-actors',
+    parsedQuery: {
+      '$and': [
+        {
+          Personajes: {
+            '$elemMatch': {
+              '$and': [
+                {
+                  Generos: {
+                    '$eq': 'Accion'
+                  }
+                },
+                {
+                  Rol: {
+                    '$eq': 'principal'
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          Edad: {
+            '$lt': 30
+          }
+        }
+      ]
+    },
+    indexFilterSet: false,
+    queryHash: 'AFE20E1B',
+    planCacheShapeHash: 'AFE20E1B',
+    planCacheKey: 'AAA6E12C',
+    optimizationTimeMillis: 0,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'LIMIT',
+      limitAmount: 10,
+      inputStage: {
+        stage: 'PROJECTION_SIMPLE',
+        transformBy: {
+          _id: 0,
+          Nombre: 1,
+          Edad: 1,
+          Nacionalidad: 1,
+          Personajes: 1
+        },
+        inputStage: {
+          stage: 'FETCH',
+          filter: {
+            Personajes: {
+              '$elemMatch': {
+                '$and': [
+                  {
+                    Generos: {
+                      '$eq': 'Accion'
+                    }
+                  },
+                  {
+                    Rol: {
+                      '$eq': 'principal'
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          inputStage: {
+            stage: 'IXSCAN',
+            keyPattern: {
+              Edad: 1
+            },
+            indexName: 'Edad_1',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Edad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'forward',
+            indexBounds: {
+              Edad: [
+                '[-inf.0, 30)'
+              ]
+            }
+          }
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 3,
+    executionTimeMillis: 0,
+    totalKeysExamined: 8,
+    totalDocsExamined: 8,
+    executionStages: {
+      isCached: false,
+      stage: 'LIMIT',
+      nReturned: 3,
+      executionTimeMillisEstimate: 0,
+      works: 9,
+      advanced: 3,
+      needTime: 5,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      limitAmount: 10,
+      inputStage: {
+        stage: 'PROJECTION_SIMPLE',
+        nReturned: 3,
+        executionTimeMillisEstimate: 0,
+        works: 9,
+        advanced: 3,
+        needTime: 5,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        transformBy: {
+          _id: 0,
+          Nombre: 1,
+          Edad: 1,
+          Nacionalidad: 1,
+          Personajes: 1
+        },
+        inputStage: {
+          stage: 'FETCH',
+          filter: {
+            Personajes: {
+              '$elemMatch': {
+                '$and': [
+                  {
+                    Generos: {
+                      '$eq': 'Accion'
+                    }
+                  },
+                  {
+                    Rol: {
+                      '$eq': 'principal'
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          nReturned: 3,
+          executionTimeMillisEstimate: 0,
+          works: 9,
+          advanced: 3,
+          needTime: 5,
+          needYield: 0,
+          saveState: 0,
+          restoreState: 0,
+          isEOF: 1,
+          docsExamined: 8,
+          alreadyHasObj: 0,
+          inputStage: {
+            stage: 'IXSCAN',
+            nReturned: 8,
+            executionTimeMillisEstimate: 0,
+            works: 9,
+            advanced: 8,
+            needTime: 0,
+            needYield: 0,
+            saveState: 0,
+            restoreState: 0,
+            isEOF: 1,
+            keyPattern: {
+              Edad: 1
+            },
+            indexName: 'Edad_1',
+            isMultiKey: false,
+            multiKeyPaths: {
+              Edad: []
+            },
+            isUnique: false,
+            isSparse: false,
+            isPartial: false,
+            indexVersion: 2,
+            direction: 'forward',
+            indexBounds: {
+              Edad: [
+                '[-inf.0, 30)'
+              ]
+            },
+            keysExamined: 8,
+            seeks: 1,
+            dupsTested: 0,
+            dupsDropped: 0
+          }
+        }
+      }
+    }
+  },
+  queryShapeHash: 'CC8F34527A0BD851D8618CE2A6D58958901282E7C8A9DB8219F104BEE23FA9DF',
+  command: {
+    find: 'Voice-actors',
+    filter: {
+      Edad: {
+        '$lt': 30
+      },
+      Personajes: {
+        '$elemMatch': {
+          Rol: 'principal',
+          Generos: 'Accion'
+        }
+      }
+    },
+    sort: {
+      Edad: 1
+    },
+    projection: {
+      _id: 0,
+      Nombre: 1,
+      Edad: 1,
+      Nacionalidad: 1,
+      Personajes: 1
+    },
+    limit: 10,
+    '$db': 'Actors'
+  },
+  serverInfo: {
+    host: '058f7131e6e9',
+    port: 30001,
+    version: '8.0.29',
+    gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1788713639, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1788713639, i: 1 })
+}
+
+consulta 4- con índice(Nacionalidad-Edad)
+{
+  explainVersion: '1',
+  queryPlanner: {
+    namespace: 'Actors.Voice-actors',
+    parsedQuery: {},
+    indexFilterSet: false,
+    queryHash: '06948D48',
+    planCacheShapeHash: '06948D48',
+    planCacheKey: '13884CF8',
+    optimizationTimeMillis: 0,
+    optimizedPipeline: true,
+    maxIndexedOrSolutionsReached: false,
+    maxIndexedAndSolutionsReached: false,
+    maxScansToExplodeReached: false,
+    prunedSimilarIndexes: false,
+    winningPlan: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      transformBy: {
+        Nombre: true,
+        Edad: true,
+        Patrimonio: true,
+        Nacionalidad: true,
+        _id: false
+      },
+      inputStage: {
+        stage: 'SKIP',
+        skipAmount: 4,
+        inputStage: {
+          stage: 'SORT',
+          sortPattern: {
+            Patrimonio: -1
+          },
+          memLimit: 104857600,
+          limitAmount: 14,
+          type: 'simple',
+          inputStage: {
+            stage: 'COLLSCAN',
+            direction: 'forward'
+          }
+        }
+      }
+    },
+    rejectedPlans: []
+  },
+  executionStats: {
+    executionSuccess: true,
+    nReturned: 10,
+    executionTimeMillis: 1,
+    totalKeysExamined: 0,
+    totalDocsExamined: 51,
+    executionStages: {
+      isCached: false,
+      stage: 'PROJECTION_SIMPLE',
+      nReturned: 10,
+      executionTimeMillisEstimate: 0,
+      works: 67,
+      advanced: 10,
+      needTime: 56,
+      needYield: 0,
+      saveState: 0,
+      restoreState: 0,
+      isEOF: 1,
+      transformBy: {
+        Nombre: true,
+        Edad: true,
+        Patrimonio: true,
+        Nacionalidad: true,
+        _id: false
+      },
+      inputStage: {
+        stage: 'SKIP',
+        nReturned: 10,
+        executionTimeMillisEstimate: 0,
+        works: 67,
+        advanced: 10,
+        needTime: 56,
+        needYield: 0,
+        saveState: 0,
+        restoreState: 0,
+        isEOF: 1,
+        skipAmount: 4,
+        inputStage: {
+          stage: 'SORT',
+          nReturned: 14,
+          executionTimeMillisEstimate: 0,
+          works: 67,
+          advanced: 14,
+          needTime: 52,
+          needYield: 0,
+          saveState: 0,
+          restoreState: 0,
+          isEOF: 1,
+          sortPattern: {
+            Patrimonio: -1
+          },
+          memLimit: 104857600,
+          limitAmount: 14,
+          type: 'simple',
+          totalDataSizeSorted: 8167,
+          usedDisk: false,
+          spills: 0,
+          spilledDataStorageSize: 0,
+          inputStage: {
+            stage: 'COLLSCAN',
+            nReturned: 51,
+            executionTimeMillisEstimate: 0,
+            works: 52,
+            advanced: 51,
+            needTime: 0,
+            needYield: 0,
+            saveState: 0,
+            restoreState: 0,
+            isEOF: 1,
+            direction: 'forward',
+            docsExamined: 51
+          }
+        }
+      }
+    }
+  },
+  queryShapeHash: 'AD32F810FC6876493DAF05272701665FC6E0D6CA44974C9586795E7782D1CA6C',
+  command: {
+    aggregate: 'Voice-actors',
+    pipeline: [
+      {
+        '$sort': {
+          Patrimonio: -1
+        }
+      },
+      {
+        '$skip': 4
+      },
+      {
+        '$limit': 10
+      },
+      {
+        '$project': {
+          _id: 0,
+          Nombre: 1,
+          Edad: 1,
+          Patrimonio: 1,
+          Nacionalidad: 1
+        }
+      }
+    ],
+    cursor: {},
+    '$db': 'Actors'
+  },
+  serverInfo: {
+    host: '058f7131e6e9',
+    port: 30001,
+    version: '8.0.29',
+    gitVersion: '559d67c651f7393e62757234a0b25cb7a8622148'
+  },
+  serverParameters: {
+    internalQueryFacetBufferSizeBytes: 104857600,
+    internalQueryFacetMaxOutputDocSizeBytes: 104857600,
+    internalLookupStageIntermediateDocumentMaxSizeBytes: 104857600,
+    internalDocumentSourceGroupMaxMemoryBytes: 104857600,
+    internalQueryMaxBlockingSortMemoryUsageBytes: 104857600,
+    internalQueryProhibitBlockingMergeOnMongoS: 0,
+    internalQueryMaxAddToSetBytes: 104857600,
+    internalDocumentSourceSetWindowFieldsMaxMemoryBytes: 104857600,
+    internalQueryFrameworkControl: 'trySbeRestricted',
+    internalQueryPlannerIgnoreIndexWithCollationForRegex: 1
+  },
+  ok: 1,
+  '$clusterTime': {
+    clusterTime: Timestamp({ t: 1788714949, i: 1 }),
+    signature: {
+      hash: Binary.createFromBase64('AAAAAAAAAAAAAAAAAAAAAAAAAAA=', 0),
+      keyId: Long('0')
+    }
+  },
+  operationTime: Timestamp({ t: 1788714949, i: 1 })
+}
